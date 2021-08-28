@@ -2619,6 +2619,10 @@ a.animated-button.style2:hover:after {
 	}
 	#section-slider1 .swiper-slide .slider-content .left {
 	    transform: none;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		text-align: center;
 	}
 	#section-slider1 .swiper-slide .slider-content .left li {
 	    width: 45%;
