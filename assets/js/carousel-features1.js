@@ -6,11 +6,13 @@
       	slidesPerView: 1,
       	spaceBetween: 30,
       	width: 370,
+				autoplay: {
+      		delay: 3000,
+				},
       	navigation: {
-		    nextEl: "#section-features1 .fa-long-arrow-right",
-		    prevEl: "#section-features1 .fa-long-arrow-left"
-		  },
-      
+					nextEl: "#section-features1 .cmd-go-right",
+					prevEl: "#section-features1 .cmd-go-left"
+				},
     });
-	
+
 })(jQuery);

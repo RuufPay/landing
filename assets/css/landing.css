@@ -42,19 +42,6 @@
 		transform: translate3d(85px,0,0);
 	}
 }
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-	.waves {
-		height:40px;
-		min-height:40px;
-	}
-	.content {
-		height:30vh;
-	}
-	h1 {
-		font-size:24px;
-	}
-}
 
 .row {
 	align-items: center;
@@ -188,3 +175,50 @@ a.btn-1.button {
 	justify-content: center;
 	display: flex;
 }
+
+.app-logo {
+	width: 170px;
+}
+
+.supplies-mobile {
+	display: none;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+	.waves {
+		height:40px;
+		min-height:40px;
+	}
+	.content {
+		height:30vh;
+	}
+	h1 {
+		font-size:24px;
+	}
+	h3.clscheme {
+		margin-bottom: 2rem;
+	}
+	.app-logo {
+		width: 120px;
+	}
+	.stack-buttons {
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.stack-buttons a {
+		margin-left: 0;
+		margin-bottom: 2rem;
+	}
+	.stack-buttons a:last-child {
+		margin: 0 !important;
+	}
+	.supplies {
+		display: none;
+	}
+	.supplies-mobile {
+		display: block;
+	}
+}
+

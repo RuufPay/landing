@@ -1008,7 +1008,7 @@ a.animated-button.style2:hover:after {
 	font-family: 'Poppins-Medium';
 	font-size: 48px;
 	color: #ffffff;
-	margin-bottom: 30px;
+	margin-bottom: 2rem;
 }
 #section-slider1 .swiper-slide .slider-content .left{
 	height: 100%;
@@ -2770,7 +2770,10 @@ a.animated-button.style2:hover:after {
 	}
 	/** /.NAVIGATION **/
 	#section-slider1 .swiper-slide .slider-content .left {
-	    transform: translateY(-9%);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 	#section-slider1 .swiper-slide .slider-content .left ul {
 	    text-align: left;
@@ -2780,10 +2783,12 @@ a.animated-button.style2:hover:after {
 	}
 	#section-slider1 .swiper-slide .slider-content .left h1 {
 	    font-size: 35px;
+		text-align: center;
 	}
 	#section-slider1 .swiper-slide .slider-content .left p {
-	    line-height: 28px;
-	    margin-bottom: 30px;
+		line-height: 28px;
+		text-align: center;
+		margin-bottom:
 	}
 	#section-features1 .left {
 	    width: 100%;
