@@ -184,6 +184,29 @@ a.btn-1.button {
 	display: none;
 }
 
+
+div#section-clients1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	min-height: 210px;
+}
+
+.clients-list {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr;
+}
+
+.clients-list .item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
 	.waves {
@@ -220,5 +243,9 @@ a.btn-1.button {
 	.supplies-mobile {
 		display: block;
 	}
+	.clients-list {
+		padding: 4rem 0;
+		grid-template-columns: 1fr;
+		grid-row-gap: 4rem;
+	}
 }
-
