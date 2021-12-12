@@ -643,8 +643,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-    height: 34px;
+    width: 150px;
+    height: 45px;
     margin-bottom: 1px;
     -webkit-backface-visibility: hidden;
 }
@@ -835,9 +835,9 @@ input[type='checkbox'] {
 
 .header .subscription-container span {
     text-transform: uppercase;
-    color: #BC66F9;
-    font-weight: 500;
-    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -2174,7 +2174,7 @@ a:hover.back-to-top {
 #fh5co-faqs {
     position: relative;
     padding: 4em 0em;
-    height: 100%;
+    overflow: hidden;
     display: block;
     background: #2f2c3d !important;
 }
