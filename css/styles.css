@@ -2509,6 +2509,10 @@ div#section-clients1 {
     justify-content: center;
 }
 
+.clients-list .item:last-child {
+    grid-area: r;
+}
+
 /*Shrinking for mobile*/
 
 @media (max-width: 768px) {
@@ -2560,6 +2564,10 @@ div#section-clients1 {
         padding: 4rem 0;
         grid-template-columns: 1fr;
         grid-row-gap: 2rem;
+    }
+
+    .clients-list .item:last-child {
+        grid-area: unset;
     }
 }
 
